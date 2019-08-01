@@ -1,5 +1,5 @@
-# Samples
-This directory includes samples for Turta RC Driver HAT.
+# Chassis
+This directory includes 3D printing files for RC car chassis.
 
 ## Index
 * __Base_Pi_PWM_Driver.stl:__ Base part for Raspberry Pi + 16Ch PWM driver configuration.
