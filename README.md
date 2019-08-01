@@ -1,7 +1,7 @@
 # Turta RC Driver HAT for Raspberry Pi
 RC Driver HAT is a Raspberry Pi interface board for autonomous RC vehicles.
 
-This repository includes libraries, samples, firmware and component datasheets of RC Driver HAT.
+This repository includes libraries, samples, firmware, 3D chassis files and component datasheets of RC Driver HAT.
 
 ## Features
 - 4Ch PWM output for RC servo or ESC.

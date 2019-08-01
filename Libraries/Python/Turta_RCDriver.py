@@ -332,7 +332,7 @@ class RCDriver(object):
         return
 
     def set_led(self, led, b):
-        """Sets the birghtness of the selected LED.
+        """Sets the brightness of the selected LED.
 
         Parameters:
         led (LED_OUT): LED channel
@@ -349,7 +349,7 @@ class RCDriver(object):
         return
 
     def set_leds(self, b):
-        """Sets the birghtness of the LEDs.
+        """Sets the brightnesses of the LEDs.
 
         Parameters:
         b (int list): LED brightness (0 to 4095), front, rear, stop, left and right respectively"""
@@ -391,7 +391,7 @@ class RCDriver(object):
         """Reads the battery Voltage.
 
         Returns:
-        byte: Battery Voltage"""
+        Float: Battery Voltage"""
 
         tmp = self._read_2bytes_msbfirst(self.INA219A_I2C_ADDRESS, self.INA219A_BUS_VOLTAGE)
         #Check for math overflow flag
@@ -473,7 +473,7 @@ class RCDriver(object):
         """Reads the speed of vehicle using the selected tachometer input.
 
         Parameters:
-        ch (TACH_IN): Tachometer channel.
+        ch (TACH_IN): Tachometer channel
         ticks_per_rev (int): Ticks per revolution (Default is 1)
         dia_cm (int): Diameter in cm (Default none returns RPM)
         mph (bool): True for MPH, False for KMH output, checked only if dia_cm is set (Default is False)
